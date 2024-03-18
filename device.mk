@@ -57,6 +57,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+PRODUCT_PACKAGES += \
+    PipaFlipFlap \
+    FlipFlap \
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
 
 # Rootdir
