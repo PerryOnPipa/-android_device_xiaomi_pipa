@@ -70,8 +70,3 @@ PRODUCT_PACKAGES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/pipa/pipa-vendor.mk)
-
-# Inherit Gapps and Pixel stuff
-ifneq ("$(wildcard vendor/google/gms/config.mk)", "")
-$(call inherit-product, vendor/google/gms/config.mk)
-endif
