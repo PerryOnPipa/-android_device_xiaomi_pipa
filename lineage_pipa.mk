@@ -16,8 +16,9 @@ $(call inherit-product, device/xiaomi/pipa/device.mk)
 
 # Device Identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-   RISING_MAINTAINER="ste0090" \
    RISING_CHIPSET="SDM870"
+
+RISING_MAINTAINER=ste0090
 
 WITH_GMS := true
 TARGET_CORE_GMS := true
